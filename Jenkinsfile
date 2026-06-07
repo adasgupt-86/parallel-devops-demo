@@ -15,7 +15,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/<github-user>/parallel-devops-demo.git',
+                    url: 'https://github.com/adasgupt-86/parallel-devops-demo.git',
                     credentialsId: 'git-cred'
             }
         }
